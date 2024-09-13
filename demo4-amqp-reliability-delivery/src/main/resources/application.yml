@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: demo4-amqp-reliability-delivery
+  rabbitmq:
+    host: localhost
+    port: 5672
+    username: guest
+    password: guest
+    virtual-host: /
+    publisher-confirm-type: CORRELATED    # \u4EA4\u6362\u673A\u7684\u786E\u8BA4
+    publisher-returns: true               # \u961F\u5217\u7684\u786E\u8BA4

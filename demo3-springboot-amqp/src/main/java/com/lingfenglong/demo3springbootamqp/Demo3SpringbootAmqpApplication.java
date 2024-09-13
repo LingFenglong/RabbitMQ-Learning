@@ -14,10 +14,7 @@ import org.springframework.amqp.support.converter.SimpleMessageConverter;
 import org.springframework.boot.ApplicationRunner;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
-import org.springframework.context.ApplicationContext;
-import org.springframework.context.ConfigurableApplicationContext;
 import org.springframework.context.annotation.Bean;
-import org.springframework.core.annotation.Order;
 import org.springframework.stereotype.Component;
 
 import java.io.Serializable;
@@ -26,7 +23,7 @@ import java.io.Serializable;
 public class Demo3SpringbootAmqpApplication {
     public static final String EXCHANGE_NAME = "springboot_demo_exchange";
     public static final String QUEUE_NAME = "springboot_demo_queue";
-    public static final String[] KEYS = new String[] { "news.#", "books.#" };;
+    public static final String[] KEYS = new String[] { "news.#", "books.#" };
 
     public static void main(String[] args) {
         // /*
@@ -42,10 +39,9 @@ public class Demo3SpringbootAmqpApplication {
     }
 
     @Bean
-    @Order(0)
     public MessageConverter messageConverter() {
         SimpleMessageConverter simpleMessageConverter = new SimpleMessageConverter();
-        simpleMessageConverter.addAllowedListPatterns("*");
+        simpleMessageConverter.addAllowedListPatterns("*"); // add wildcard for all Class (package.Class)
         return simpleMessageConverter;
     }
 
@@ -60,7 +56,6 @@ public class Demo3SpringbootAmqpApplication {
 }
 
 @Component
-@Order(2)
 class MessagePublisher {
     private final AmqpTemplate amqpTemplate;
 
@@ -74,7 +69,6 @@ class MessagePublisher {
 }
 
 @Component
-@Order(1)
 class MessageListener {
     private static final Logger log = LoggerFactory.getLogger(MessageListener.class);
 
