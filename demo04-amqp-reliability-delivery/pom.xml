@@ -9,10 +9,10 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>com.lingfenglong</groupId>
-    <artifactId>demo3-springboot-amqp</artifactId>
+    <artifactId>demo04-amqp-reliability-delivery</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>demo3-springboot-amqp</name>
-    <description>demo3-springboot-amqp</description>
+    <name>demo4-amqp-reliability-delivery</name>
+    <description>demo4-amqp-reliability-delivery</description>
     <url/>
     <licenses>
         <license/>

@@ -1,0 +1,334 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="5d1bc406-892b-49ed-a1ea-882da55a262a" name="Changes" comment="confirm consumer">
+      <change afterPath="$PROJECT_DIR$/demo05-prefetch/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo06-message-timeout/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jpa-buddy.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo3-springboot-amqp/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/demo03-springboot-amqp/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo3-springboot-amqp/src/main/java/com/lingfenglong/demo3springbootamqp/Demo3SpringbootAmqpApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo03-springboot-amqp/src/main/java/com/lingfenglong/demo3springbootamqp/Demo3SpringbootAmqpApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo3-springboot-amqp/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/demo03-springboot-amqp/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo3-springboot-amqp/src/test/java/com/lingfenglong/demo3springbootamqp/Demo3SpringbootAmqpApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo03-springboot-amqp/src/test/java/com/lingfenglong/demo3springbootamqp/Demo3SpringbootAmqpApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo4-amqp-reliability-delivery/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/demo04-amqp-reliability-delivery/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo4-amqp-reliability-delivery/src/main/java/com/lingfenglong/demo4amqpreliabilitydelivery/Demo4AmqpReliabilityDeliveryApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo04-amqp-reliability-delivery/src/main/java/com/lingfenglong/demo4amqpreliabilitydelivery/Demo4AmqpReliabilityDeliveryApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo4-amqp-reliability-delivery/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/demo04-amqp-reliability-delivery/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo4-amqp-reliability-delivery/src/test/java/com/lingfenglong/demo4amqpreliabilitydelivery/Demo4AmqpReliabilityDeliveryApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo04-amqp-reliability-delivery/src/test/java/com/lingfenglong/demo4amqpreliabilitydelivery/Demo4AmqpReliabilityDeliveryApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <projects_view>
+          <tree_state>
+            <expand />
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;LingFenglong&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/LingFenglong/RabbitMQ-Learning.git&quot;,
+    &quot;accountId&quot;: &quot;d2589b70-ecff-4bc4-a2ef-ba02d17c7ff1&quot;
+  }
+}</component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="jar://$PROJECT_DIR$/../../LocalRepository/maven-repo/org/springframework/amqp/spring-rabbit/3.1.7/spring-rabbit-3.1.7-sources.jar!/org/springframework/amqp/rabbit/annotation/QueueBinding.java" root0="SKIP_INSPECTION" />
+  </component>
+  <component name="KubernetesApiPersistence">{}</component>
+  <component name="KubernetesApiProvider">{
+  &quot;isMigrated&quot;: true
+}</component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="customMavenHome" value="$PROJECT_DIR$/../../exefiles/BuildTools/apache-maven-3.9.1" />
+        <option name="localRepository" value="D:\LocalRepository\maven-repo" />
+        <option name="mavenHomeTypeForPersistence" value="CUSTOM" />
+        <option name="userSettingsFile" value="D:\exefiles\BuildTools\apache-maven-3.9.1\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 3
+}</component>
+  <component name="ProjectId" id="2d75eUHpAKRsP7rXZwQKrFMV8xw" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.Demo05PrefetchApplication.executor": "Run",
+    "Application.FanoutDemo.executor": "Run",
+    "Application.Receive.executor": "Run",
+    "Application.RoutingDemo.executor": "Run",
+    "Application.Send.executor": "Run",
+    "Application.TopicDemo.executor": "Run",
+    "Application.WorkDemo.executor": "Run",
+    "JUnit.Demo4AmqpReliabilityDeliveryApplicationTests.sendMessage.executor": "Debug",
+    "JUnit.Demo4AmqpReliabilityDeliveryApplicationTests.sendMessageFailure_ExchangeFailed.executor": "Debug",
+    "JUnit.Demo4AmqpReliabilityDeliveryApplicationTests.sendMessageFailure_QueueFailed.executor": "Debug",
+    "JUnit.Demo4AmqpReliabilityDeliveryApplicationTests.sendMessageSuccess.executor": "Debug",
+    "JUnit.Demo4AmqpReliabilityDeliveryApplicationTests.sendMessageSuccess_OriginQueueFailed_BackupExchange.executor": "Run",
+    "Maven.RabbitMQ-Learning [clean].executor": "Run",
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "Spring Boot.Demo05PrefetchApplication.executor": "Run",
+    "Spring Boot.Demo06MessageTimeoutApplication.executor": "Run",
+    "Spring Boot.Demo3SpringbootAmqpApplication.executor": "Run",
+    "Spring Boot.Demo4AmqpReliabilityDeliveryApplication.executor": "Run",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "master",
+    "jdk.selected.JAVA_MODULE": "temurin-21",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "D:/git/RabbitMQ-Learning/demo06-message-timeout/src/main/resources",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.21149425",
+    "settings.editor.selected.configurable": "editing.templates",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\git\RabbitMQ-Learning\demo06-message-timeout\src\main\resources" />
+      <recent name="D:\git\RabbitMQ-Learning\demo02-work-way\src\main\java\com\lingfenglong\workway\topic" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Spring Boot.Demo06MessageTimeoutApplication">
+    <configuration name="Demo4AmqpReliabilityDeliveryApplicationTests.sendMessageFailure_ExchangeFailed" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="demo04-amqp-reliability-delivery" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.lingfenglong.demo4amqpreliabilitydelivery.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.lingfenglong.demo4amqpreliabilitydelivery" />
+      <option name="MAIN_CLASS_NAME" value="com.lingfenglong.demo4amqpreliabilitydelivery.Demo4AmqpReliabilityDeliveryApplicationTests" />
+      <option name="METHOD_NAME" value="sendMessageFailure_ExchangeFailed" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Demo4AmqpReliabilityDeliveryApplicationTests.sendMessageFailure_QueueFailed" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="demo04-amqp-reliability-delivery" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.lingfenglong.demo4amqpreliabilitydelivery.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.lingfenglong.demo4amqpreliabilitydelivery" />
+      <option name="MAIN_CLASS_NAME" value="com.lingfenglong.demo4amqpreliabilitydelivery.Demo4AmqpReliabilityDeliveryApplicationTests" />
+      <option name="METHOD_NAME" value="sendMessageFailure_QueueFailed" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Demo4AmqpReliabilityDeliveryApplicationTests.sendMessageSuccess" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="demo04-amqp-reliability-delivery" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.lingfenglong.demo4amqpreliabilitydelivery.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.lingfenglong.demo4amqpreliabilitydelivery" />
+      <option name="MAIN_CLASS_NAME" value="com.lingfenglong.demo4amqpreliabilitydelivery.Demo4AmqpReliabilityDeliveryApplicationTests" />
+      <option name="METHOD_NAME" value="sendMessageSuccess" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Demo4AmqpReliabilityDeliveryApplicationTests.sendMessageSuccess_OriginQueueFailed_BackupExchange" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="demo04-amqp-reliability-delivery" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.lingfenglong.demo4amqpreliabilitydelivery.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.lingfenglong.demo4amqpreliabilitydelivery" />
+      <option name="MAIN_CLASS_NAME" value="com.lingfenglong.demo4amqpreliabilitydelivery.Demo4AmqpReliabilityDeliveryApplicationTests" />
+      <option name="METHOD_NAME" value="sendMessageSuccess_OriginQueueFailed_BackupExchange" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Demo05PrefetchApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="demo05-prefetch" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.lingfenglong.demo05prefetch.Demo05PrefetchApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Demo06MessageTimeoutApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="demo06-message-timeout" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.lingfenglong.demo06messagetimeout.Demo06MessageTimeoutApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Demo3SpringbootAmqpApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="demo03-springboot-amqp" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.lingfenglong.demo3springbootamqp.Demo3SpringbootAmqpApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Demo4AmqpReliabilityDeliveryApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="demo04-amqp-reliability-delivery" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.lingfenglong.demo4amqpreliabilitydelivery.Demo4AmqpReliabilityDeliveryApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.Demo4AmqpReliabilityDeliveryApplicationTests.sendMessageSuccess_OriginQueueFailed_BackupExchange" />
+        <item itemvalue="JUnit.Demo4AmqpReliabilityDeliveryApplicationTests.sendMessageSuccess" />
+        <item itemvalue="JUnit.Demo4AmqpReliabilityDeliveryApplicationTests.sendMessageFailure_QueueFailed" />
+        <item itemvalue="JUnit.Demo4AmqpReliabilityDeliveryApplicationTests.sendMessageFailure_ExchangeFailed" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9823dce3aa75-b114ca120d71-intellij.indexing.shared.core-IU-242.20224.387" />
+        <option value="bundled-js-predefined-d6986cc7102b-410509235cf1-JavaScript-IU-242.20224.387" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="5d1bc406-892b-49ed-a1ea-882da55a262a" name="Changes" comment="" />
+      <created>1709346373063</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1709346373063</updated>
+      <workItem from="1709346374127" duration="4709000" />
+      <workItem from="1709364021008" duration="9643000" />
+      <workItem from="1709532170023" duration="65000" />
+      <workItem from="1725790277152" duration="1809000" />
+      <workItem from="1725979737507" duration="5378000" />
+      <workItem from="1726149849893" duration="5593000" />
+      <workItem from="1726236697158" duration="6219000" />
+      <workItem from="1726367103036" duration="12532000" />
+      <workItem from="1726402313537" duration="1738000" />
+      <workItem from="1726404203846" duration="4379000" />
+    </task>
+    <task id="LOCAL-00001" summary="demo-springboot-amqp">
+      <option name="closed" value="true" />
+      <created>1726156373874</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1726156373874</updated>
+    </task>
+    <task id="LOCAL-00002" summary="confirm publisher">
+      <option name="closed" value="true" />
+      <created>1726242235592</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1726242235593</updated>
+    </task>
+    <task id="LOCAL-00003" summary="confirm publisher&#10;backup exchange test">
+      <option name="closed" value="true" />
+      <created>1726371636489</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1726371636489</updated>
+    </task>
+    <task id="LOCAL-00004" summary="confirm consumer">
+      <option name="closed" value="true" />
+      <created>1726402820613</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1726402820613</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="demo-springboot-amqp" />
+    <MESSAGE value="confirm publisher" />
+    <MESSAGE value="confirm publisher&#10;backup exchange test" />
+    <MESSAGE value="confirm consumer" />
+    <option name="LAST_COMMIT_MESSAGE" value="confirm consumer" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>

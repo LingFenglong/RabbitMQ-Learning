@@ -12,7 +12,6 @@ spring:
     listener:
       simple:
         acknowledge-mode: manual          # 把消息确认模式改为手动确认
-        prefetch: 1                       # 每次从队列中取回消息的数量
 
 logging:
   level:

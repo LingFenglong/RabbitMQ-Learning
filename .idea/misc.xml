@@ -7,6 +7,9 @@
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/demo3-springboot-amqp/pom.xml" />
         <option value="$PROJECT_DIR$/demo4-amqp-reliability-delivery/pom.xml" />
+        <option value="$PROJECT_DIR$/demo01-hello-world/pom.xml" />
+        <option value="$PROJECT_DIR$/demo05-prefetch/pom.xml" />
+        <option value="$PROJECT_DIR$/demo06-message-timeout/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">
@@ -15,10 +18,5 @@
       </set>
     </option>
   </component>
-  <component name="ProjectRootManager" version="2" languageLevel="JDK_21" default="true" project-jdk-name="graalvm-21" project-jdk-type="JavaSDK">
-    <output url="file://$PROJECT_DIR$/out" />
-  </component>
-  <component name="ProjectType">
-    <option name="id" value="jpab" />
-  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_21" default="true" project-jdk-name="temurin-21" project-jdk-type="JavaSDK" />
 </project>

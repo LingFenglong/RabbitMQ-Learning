@@ -9,10 +9,10 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>com.lingfenglong</groupId>
-    <artifactId>demo4-amqp-reliability-delivery</artifactId>
+    <artifactId>demo06-message-timeout</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>demo4-amqp-reliability-delivery</name>
-    <description>demo4-amqp-reliability-delivery</description>
+    <name>demo06-message-timeout</name>
+    <description>demo06-message-timeout</description>
     <url/>
     <licenses>
         <license/>
@@ -33,10 +33,6 @@
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-amqp</artifactId>
-        </dependency>
-        <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-web</artifactId>
         </dependency>
 
         <dependency>

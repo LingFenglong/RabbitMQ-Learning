@@ -1,0 +1,12 @@
+spring:
+  application:
+    name: demo05-prefetch
+  rabbitmq:
+    addresses: 127.0.0.1
+    host: 5672
+    virtual-host: /
+    username: guest
+    password: guest
+    listener:
+      simple:
+        prefetch: 10
