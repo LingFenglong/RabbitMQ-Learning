@@ -9,10 +9,10 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>com.lingfenglong</groupId>
-    <artifactId>demo7-dead-letter</artifactId>
+    <artifactId>demo08-delayed-exchange-plugin</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>demo7-dead-letter</name>
-    <description>demo7-dead-letter</description>
+    <name>demo08-delayed-exchange-plugin</name>
+    <description>demo08-delayed-exchange-plugin</description>
     <url/>
     <licenses>
         <license/>

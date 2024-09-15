@@ -11,6 +11,8 @@
         <option value="$PROJECT_DIR$/demo05-prefetch/pom.xml" />
         <option value="$PROJECT_DIR$/demo06-message-timeout/pom.xml" />
         <option value="$PROJECT_DIR$/demo7-dead-letter/pom.xml" />
+        <option value="$PROJECT_DIR$/demo08-delayed-exchange-plugin/pom.xml" />
+        <option value="$PROJECT_DIR$/demo07-dead-letter/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">

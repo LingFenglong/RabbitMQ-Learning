@@ -4,11 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5d1bc406-892b-49ed-a1ea-882da55a262a" name="Changes" comment="prefetch 消费者每次取多少消息&#10;timeout:&#10; - queue timeout 给队列设置过期时间，过期后，消息变成死信&#10; - message timeout 给消息设置过期时间，过期后，消息变成死信&#10; 两者以先过期的为准">
-      <change afterPath="$PROJECT_DIR$/demo7-dead-letter/src/main/resources/application.yml" afterDir="false" />
+    <list default="true" id="5d1bc406-892b-49ed-a1ea-882da55a262a" name="Changes" comment="dead letter 死信">
+      <change afterPath="$PROJECT_DIR$/demo08-delayed-exchange-plugin/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo08-delayed-exchange-plugin/src/main/java/com/lingfenglong/demo08delayedexchangeplugin/Demo08DelayedExchangePluginApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo08-delayed-exchange-plugin/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo08-delayed-exchange-plugin/src/test/java/com/lingfenglong/demo08delayedexchangeplugin/Demo08DelayedExchangePluginApplicationTests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo7-dead-letter/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/demo07-dead-letter/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo7-dead-letter/src/main/java/com/lingfenglong/demo7deadletter/Demo7DeadLetterApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo07-dead-letter/src/main/java/com/lingfenglong/demo7deadletter/Demo7DeadLetterApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo7-dead-letter/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/demo07-dead-letter/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo7-dead-letter/src/test/java/com/lingfenglong/demo7deadletter/Demo7DeadLetterApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo07-dead-letter/src/test/java/com/lingfenglong/demo7deadletter/Demo7DeadLetterApplicationTests.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -101,6 +108,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "Spring Boot.Demo05PrefetchApplication.executor": "Run",
     "Spring Boot.Demo06MessageTimeoutApplication.executor": "Run",
+    "Spring Boot.Demo08DelayedExchangePluginApplication.executor": "Run",
     "Spring Boot.Demo3SpringbootAmqpApplication.executor": "Run",
     "Spring Boot.Demo4AmqpReliabilityDeliveryApplication.executor": "Run",
     "Spring Boot.Demo7DeadLetterApplication.executor": "Run",
@@ -108,13 +116,13 @@
     "git-widget-placeholder": "master",
     "jdk.selected.JAVA_MODULE": "temurin-21",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "D:/git/RabbitMQ-Learning/demo7-dead-letter/src/main/resources",
+    "last_opened_file_path": "D:/git/RabbitMQ-Learning/demo07-dead-letter",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Modules",
+    "project.structure.last.edited": "Facets",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.21149425",
     "settings.editor.selected.configurable": "editing.templates",
@@ -123,6 +131,7 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\git\RabbitMQ-Learning\demo08-delayed-exchange-plugin\src\main\resources" />
       <recent name="D:\git\RabbitMQ-Learning\demo7-dead-letter\src\main\resources" />
       <recent name="D:\git\RabbitMQ-Learning\demo06-message-timeout\src\main\resources" />
       <recent name="D:\git\RabbitMQ-Learning\demo02-work-way\src\main\java\com\lingfenglong\workway\topic" />
@@ -131,7 +140,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Spring Boot.Demo7DeadLetterApplication">
+  <component name="RunManager" selected="Spring Boot.Demo08DelayedExchangePluginApplication">
     <configuration name="Demo4AmqpReliabilityDeliveryApplicationTests.sendMessageFailure_ExchangeFailed" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="demo04-amqp-reliability-delivery" />
       <extension name="coverage">
@@ -210,6 +219,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Demo08DelayedExchangePluginApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="demo08-delayed-exchange-plugin" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.lingfenglong.demo08delayedexchangeplugin.Demo08DelayedExchangePluginApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Demo3SpringbootAmqpApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="demo03-springboot-amqp" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.lingfenglong.demo3springbootamqp.Demo3SpringbootAmqpApplication" />
@@ -225,7 +241,7 @@
       </method>
     </configuration>
     <configuration name="Demo7DeadLetterApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
-      <module name="demo7-dead-letter" />
+      <module name="demo07-dead-letter" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.lingfenglong.demo7deadletter.Demo7DeadLetterApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -265,7 +281,7 @@
       <workItem from="1726236697158" duration="6219000" />
       <workItem from="1726367103036" duration="12532000" />
       <workItem from="1726402313537" duration="1738000" />
-      <workItem from="1726404203846" duration="8738000" />
+      <workItem from="1726404203846" duration="11941000" />
     </task>
     <task id="LOCAL-00001" summary="demo-springboot-amqp">
       <option name="closed" value="true" />
@@ -307,7 +323,15 @@
       <option name="project" value="LOCAL" />
       <updated>1726408730239</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="dead letter 死信">
+      <option name="closed" value="true" />
+      <created>1726413502548</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1726413502548</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -330,7 +354,8 @@
     <MESSAGE value="confirm publisher&#10;backup exchange test" />
     <MESSAGE value="confirm consumer" />
     <MESSAGE value="prefetch 消费者每次取多少消息&#10;timeout:&#10; - queue timeout 给队列设置过期时间，过期后，消息变成死信&#10; - message timeout 给消息设置过期时间，过期后，消息变成死信&#10; 两者以先过期的为准" />
-    <option name="LAST_COMMIT_MESSAGE" value="prefetch 消费者每次取多少消息&#10;timeout:&#10; - queue timeout 给队列设置过期时间，过期后，消息变成死信&#10; - message timeout 给消息设置过期时间，过期后，消息变成死信&#10; 两者以先过期的为准" />
+    <MESSAGE value="dead letter 死信" />
+    <option name="LAST_COMMIT_MESSAGE" value="dead letter 死信" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
