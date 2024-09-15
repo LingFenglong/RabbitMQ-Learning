@@ -4,24 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5d1bc406-892b-49ed-a1ea-882da55a262a" name="Changes" comment="confirm consumer">
-      <change afterPath="$PROJECT_DIR$/demo05-prefetch/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo06-message-timeout/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/jpa-buddy.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo3-springboot-amqp/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/demo03-springboot-amqp/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo3-springboot-amqp/src/main/java/com/lingfenglong/demo3springbootamqp/Demo3SpringbootAmqpApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo03-springboot-amqp/src/main/java/com/lingfenglong/demo3springbootamqp/Demo3SpringbootAmqpApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo3-springboot-amqp/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/demo03-springboot-amqp/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo3-springboot-amqp/src/test/java/com/lingfenglong/demo3springbootamqp/Demo3SpringbootAmqpApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo03-springboot-amqp/src/test/java/com/lingfenglong/demo3springbootamqp/Demo3SpringbootAmqpApplicationTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo4-amqp-reliability-delivery/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/demo04-amqp-reliability-delivery/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo4-amqp-reliability-delivery/src/main/java/com/lingfenglong/demo4amqpreliabilitydelivery/Demo4AmqpReliabilityDeliveryApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo04-amqp-reliability-delivery/src/main/java/com/lingfenglong/demo4amqpreliabilitydelivery/Demo4AmqpReliabilityDeliveryApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo4-amqp-reliability-delivery/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/demo04-amqp-reliability-delivery/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo4-amqp-reliability-delivery/src/test/java/com/lingfenglong/demo4amqpreliabilitydelivery/Demo4AmqpReliabilityDeliveryApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo04-amqp-reliability-delivery/src/test/java/com/lingfenglong/demo4amqpreliabilitydelivery/Demo4AmqpReliabilityDeliveryApplicationTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    <list default="true" id="5d1bc406-892b-49ed-a1ea-882da55a262a" name="Changes" comment="prefetch 消费者每次取多少消息&#10;timeout:&#10; - queue timeout 给队列设置过期时间，过期后，消息变成死信&#10; - message timeout 给消息设置过期时间，过期后，消息变成死信&#10; 两者以先过期的为准">
+      <change afterPath="$PROJECT_DIR$/demo7-dead-letter/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -116,11 +103,12 @@
     "Spring Boot.Demo06MessageTimeoutApplication.executor": "Run",
     "Spring Boot.Demo3SpringbootAmqpApplication.executor": "Run",
     "Spring Boot.Demo4AmqpReliabilityDeliveryApplication.executor": "Run",
+    "Spring Boot.Demo7DeadLetterApplication.executor": "Run",
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "master",
     "jdk.selected.JAVA_MODULE": "temurin-21",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "D:/git/RabbitMQ-Learning/demo06-message-timeout/src/main/resources",
+    "last_opened_file_path": "D:/git/RabbitMQ-Learning/demo7-dead-letter/src/main/resources",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -135,6 +123,7 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\git\RabbitMQ-Learning\demo7-dead-letter\src\main\resources" />
       <recent name="D:\git\RabbitMQ-Learning\demo06-message-timeout\src\main\resources" />
       <recent name="D:\git\RabbitMQ-Learning\demo02-work-way\src\main\java\com\lingfenglong\workway\topic" />
     </key>
@@ -142,7 +131,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Spring Boot.Demo06MessageTimeoutApplication">
+  <component name="RunManager" selected="Spring Boot.Demo7DeadLetterApplication">
     <configuration name="Demo4AmqpReliabilityDeliveryApplicationTests.sendMessageFailure_ExchangeFailed" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="demo04-amqp-reliability-delivery" />
       <extension name="coverage">
@@ -235,6 +224,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Demo7DeadLetterApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="demo7-dead-letter" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.lingfenglong.demo7deadletter.Demo7DeadLetterApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.Demo4AmqpReliabilityDeliveryApplicationTests.sendMessageSuccess_OriginQueueFailed_BackupExchange" />
@@ -269,7 +265,7 @@
       <workItem from="1726236697158" duration="6219000" />
       <workItem from="1726367103036" duration="12532000" />
       <workItem from="1726402313537" duration="1738000" />
-      <workItem from="1726404203846" duration="4379000" />
+      <workItem from="1726404203846" duration="8738000" />
     </task>
     <task id="LOCAL-00001" summary="demo-springboot-amqp">
       <option name="closed" value="true" />
@@ -303,7 +299,15 @@
       <option name="project" value="LOCAL" />
       <updated>1726402820613</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="prefetch 消费者每次取多少消息&#10;timeout:&#10; - queue timeout 给队列设置过期时间，过期后，消息变成死信&#10; - message timeout 给消息设置过期时间，过期后，消息变成死信&#10; 两者以先过期的为准">
+      <option name="closed" value="true" />
+      <created>1726408730239</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1726408730239</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -325,7 +329,8 @@
     <MESSAGE value="confirm publisher" />
     <MESSAGE value="confirm publisher&#10;backup exchange test" />
     <MESSAGE value="confirm consumer" />
-    <option name="LAST_COMMIT_MESSAGE" value="confirm consumer" />
+    <MESSAGE value="prefetch 消费者每次取多少消息&#10;timeout:&#10; - queue timeout 给队列设置过期时间，过期后，消息变成死信&#10; - message timeout 给消息设置过期时间，过期后，消息变成死信&#10; 两者以先过期的为准" />
+    <option name="LAST_COMMIT_MESSAGE" value="prefetch 消费者每次取多少消息&#10;timeout:&#10; - queue timeout 给队列设置过期时间，过期后，消息变成死信&#10; - message timeout 给消息设置过期时间，过期后，消息变成死信&#10; 两者以先过期的为准" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

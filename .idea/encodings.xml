@@ -3,5 +3,6 @@
   <component name="Encoding">
     <file url="file://$PROJECT_DIR$/demo05-prefetch/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/demo06-message-timeout/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/demo7-dead-letter/src/main/java" charset="UTF-8" />
   </component>
 </project>
