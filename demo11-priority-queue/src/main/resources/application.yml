@@ -1,0 +1,12 @@
+spring:
+  application:
+    name: demo11-priority-queue
+  rabbitmq:
+    virtual-host: /
+    host: localhost
+    port: 5672
+    username: guest
+    password: guest
+    listener:
+      simple:
+        prefetch: 1

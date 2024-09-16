@@ -15,6 +15,7 @@
         <option value="$PROJECT_DIR$/demo07-dead-letter/pom.xml" />
         <option value="$PROJECT_DIR$/demo09-transaction/pom.xml" />
         <option value="$PROJECT_DIR$/demo10-lazy-queue/pom.xml" />
+        <option value="$PROJECT_DIR$/demo11-priority-queue/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">

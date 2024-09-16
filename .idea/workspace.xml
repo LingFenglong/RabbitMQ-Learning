@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5d1bc406-892b-49ed-a1ea-882da55a262a" name="Changes" comment="transaction">
+    <list default="true" id="5d1bc406-892b-49ed-a1ea-882da55a262a" name="Changes" comment="lazy queue">
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
@@ -105,6 +105,7 @@
     "Spring Boot.Demo06MessageTimeoutApplication.executor": "Run",
     "Spring Boot.Demo08DelayedExchangePluginApplication.executor": "Run",
     "Spring Boot.Demo09TransactionApplication.executor": "Run",
+    "Spring Boot.Demo11PriorityQueueApplication.executor": "Run",
     "Spring Boot.Demo3SpringbootAmqpApplication.executor": "Run",
     "Spring Boot.Demo4AmqpReliabilityDeliveryApplication.executor": "Run",
     "Spring Boot.Demo7DeadLetterApplication.executor": "Run",
@@ -137,7 +138,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Demo10LazyQueueApplication">
+  <component name="RunManager" selected="Spring Boot.Demo11PriorityQueueApplication">
     <configuration name="Demo10LazyQueueApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.lingfenglong.demo10lazyqueue.Demo10LazyQueueApplication" />
       <module name="demo10-lazy-queue" />
@@ -227,6 +228,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Demo11PriorityQueueApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="demo11-priority-queue" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.lingfenglong.demo11priorityqueue.Demo11PriorityQueueApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Demo3SpringbootAmqpApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="demo03-springboot-amqp" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.lingfenglong.demo3springbootamqp.Demo3SpringbootAmqpApplication" />
@@ -283,7 +291,7 @@
       <workItem from="1726367103036" duration="12532000" />
       <workItem from="1726402313537" duration="1738000" />
       <workItem from="1726404203846" duration="13756000" />
-      <workItem from="1726454479766" duration="1816000" />
+      <workItem from="1726454479766" duration="3167000" />
     </task>
     <task id="LOCAL-00001" summary="demo-springboot-amqp">
       <option name="closed" value="true" />
@@ -349,7 +357,15 @@
       <option name="project" value="LOCAL" />
       <updated>1726419705660</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="lazy queue">
+      <option name="closed" value="true" />
+      <created>1726471173486</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1726471173486</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -375,7 +391,8 @@
     <MESSAGE value="dead letter 死信" />
     <MESSAGE value="x-delayed-queue 延迟队列" />
     <MESSAGE value="transaction" />
-    <option name="LAST_COMMIT_MESSAGE" value="transaction" />
+    <MESSAGE value="lazy queue" />
+    <option name="LAST_COMMIT_MESSAGE" value="lazy queue" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
