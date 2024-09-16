@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: demo12-rabbitmq-cluster
+
+  rabbitmq:
+    virtual-host: /
+    host: localhost
+    port: 5675
+    username: guest
+    password: guest
+    listener:
+      simple:
+        prefetch: 1

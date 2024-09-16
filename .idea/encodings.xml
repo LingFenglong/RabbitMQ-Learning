@@ -14,6 +14,7 @@
     <file url="file://$PROJECT_DIR$/demo09-transaction/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/demo10-lazy-queue/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/demo11-priority-queue/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/demo12-rabbitmq-cluster/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/src/main/resources" charset="UTF-8" />
   </component>

@@ -4,7 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5d1bc406-892b-49ed-a1ea-882da55a262a" name="Changes" comment="lazy queue">
+    <list default="true" id="5d1bc406-892b-49ed-a1ea-882da55a262a" name="Changes" comment="priority queue&#10;name = x-max-priority&#10;value = 5">
+      <change afterPath="$PROJECT_DIR$/demo12-rabbitmq-cluster/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo12-rabbitmq-cluster/src/main/java/com/lingfenglong/demo12rabbitmqcluster/Demo12RabbitmqClusterApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo12-rabbitmq-cluster/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo12-rabbitmq-cluster/src/test/java/com/lingfenglong/demo12rabbitmqcluster/Demo12RabbitmqClusterApplicationTests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
@@ -81,6 +85,8 @@
   "keyToString": {
     "Application.Demo05PrefetchApplication.executor": "Run",
     "Application.Demo10LazyQueueApplication.executor": "Run",
+    "Application.Demo12RabbitmqClusterApplication (1).executor": "Debug",
+    "Application.Demo12RabbitmqClusterApplication.executor": "Run",
     "Application.FanoutDemo.executor": "Run",
     "Application.Receive.executor": "Run",
     "Application.RoutingDemo.executor": "Run",
@@ -106,6 +112,7 @@
     "Spring Boot.Demo08DelayedExchangePluginApplication.executor": "Run",
     "Spring Boot.Demo09TransactionApplication.executor": "Run",
     "Spring Boot.Demo11PriorityQueueApplication.executor": "Run",
+    "Spring Boot.Demo12RabbitmqClusterApplication.executor": "Run",
     "Spring Boot.Demo3SpringbootAmqpApplication.executor": "Run",
     "Spring Boot.Demo4AmqpReliabilityDeliveryApplication.executor": "Run",
     "Spring Boot.Demo7DeadLetterApplication.executor": "Run",
@@ -138,7 +145,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Spring Boot.Demo11PriorityQueueApplication">
+  <component name="RunManager" selected="Spring Boot.Demo12RabbitmqClusterApplication">
     <configuration name="Demo10LazyQueueApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.lingfenglong.demo10lazyqueue.Demo10LazyQueueApplication" />
       <module name="demo10-lazy-queue" />
@@ -152,18 +159,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Demo4AmqpReliabilityDeliveryApplicationTests.sendMessageFailure_QueueFailed" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="demo04-amqp-reliability-delivery" />
+    <configuration name="Demo12RabbitmqClusterApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.lingfenglong.demo12rabbitmqcluster.Demo12RabbitmqClusterApplication" />
+      <module name="demo12-rabbitmq-cluster" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.lingfenglong.demo4amqpreliabilitydelivery.*" />
+          <option name="PATTERN" value="com.lingfenglong.demo12rabbitmqcluster.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.lingfenglong.demo4amqpreliabilitydelivery" />
-      <option name="MAIN_CLASS_NAME" value="com.lingfenglong.demo4amqpreliabilitydelivery.Demo4AmqpReliabilityDeliveryApplicationTests" />
-      <option name="METHOD_NAME" value="sendMessageFailure_QueueFailed" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -235,6 +239,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Demo12RabbitmqClusterApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="demo12-rabbitmq-cluster" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.lingfenglong.demo12rabbitmqcluster.Demo12RabbitmqClusterApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Demo3SpringbootAmqpApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="demo03-springboot-amqp" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.lingfenglong.demo3springbootamqp.Demo3SpringbootAmqpApplication" />
@@ -258,10 +269,10 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Demo12RabbitmqClusterApplication" />
         <item itemvalue="Application.Demo10LazyQueueApplication" />
         <item itemvalue="JUnit.Demo4AmqpReliabilityDeliveryApplicationTests.sendMessageSuccess_OriginQueueFailed_BackupExchange" />
         <item itemvalue="JUnit.Demo4AmqpReliabilityDeliveryApplicationTests.sendMessageSuccess" />
-        <item itemvalue="JUnit.Demo4AmqpReliabilityDeliveryApplicationTests.sendMessageFailure_QueueFailed" />
       </list>
     </recent_temporary>
   </component>
@@ -291,7 +302,7 @@
       <workItem from="1726367103036" duration="12532000" />
       <workItem from="1726402313537" duration="1738000" />
       <workItem from="1726404203846" duration="13756000" />
-      <workItem from="1726454479766" duration="3167000" />
+      <workItem from="1726454479766" duration="9424000" />
     </task>
     <task id="LOCAL-00001" summary="demo-springboot-amqp">
       <option name="closed" value="true" />
@@ -365,7 +376,15 @@
       <option name="project" value="LOCAL" />
       <updated>1726471173486</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="priority queue&#10;name = x-max-priority&#10;value = 5">
+      <option name="closed" value="true" />
+      <created>1726475192197</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1726475192197</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -392,7 +411,8 @@
     <MESSAGE value="x-delayed-queue 延迟队列" />
     <MESSAGE value="transaction" />
     <MESSAGE value="lazy queue" />
-    <option name="LAST_COMMIT_MESSAGE" value="lazy queue" />
+    <MESSAGE value="priority queue&#10;name = x-max-priority&#10;value = 5" />
+    <option name="LAST_COMMIT_MESSAGE" value="priority queue&#10;name = x-max-priority&#10;value = 5" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
