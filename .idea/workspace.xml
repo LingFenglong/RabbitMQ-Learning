@@ -4,8 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5d1bc406-892b-49ed-a1ea-882da55a262a" name="Changes" comment="x-delayed-queue 延迟队列">
-      <change afterPath="$PROJECT_DIR$/demo09-transaction/src/main/resources/application.yml" afterDir="false" />
+    <list default="true" id="5d1bc406-892b-49ed-a1ea-882da55a262a" name="Changes" comment="transaction">
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
@@ -81,6 +80,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Application.Demo05PrefetchApplication.executor": "Run",
+    "Application.Demo10LazyQueueApplication.executor": "Run",
     "Application.FanoutDemo.executor": "Run",
     "Application.Receive.executor": "Run",
     "Application.RoutingDemo.executor": "Run",
@@ -112,13 +112,13 @@
     "git-widget-placeholder": "master",
     "jdk.selected.JAVA_MODULE": "temurin-21",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "D:/git/RabbitMQ-Learning/demo09-transaction/src/main/resources",
+    "last_opened_file_path": "D:/git/RabbitMQ-Learning/demo10-lazy-queue",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Facets",
+    "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.21149425",
     "settings.editor.selected.configurable": "editing.templates",
@@ -137,7 +137,20 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Spring Boot.Demo09TransactionApplication">
+  <component name="RunManager" selected="Application.Demo10LazyQueueApplication">
+    <configuration name="Demo10LazyQueueApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.lingfenglong.demo10lazyqueue.Demo10LazyQueueApplication" />
+      <module name="demo10-lazy-queue" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.lingfenglong.demo10lazyqueue.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Demo4AmqpReliabilityDeliveryApplicationTests.sendMessageFailure_QueueFailed" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="demo04-amqp-reliability-delivery" />
       <extension name="coverage">
@@ -237,6 +250,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Demo10LazyQueueApplication" />
         <item itemvalue="JUnit.Demo4AmqpReliabilityDeliveryApplicationTests.sendMessageSuccess_OriginQueueFailed_BackupExchange" />
         <item itemvalue="JUnit.Demo4AmqpReliabilityDeliveryApplicationTests.sendMessageSuccess" />
         <item itemvalue="JUnit.Demo4AmqpReliabilityDeliveryApplicationTests.sendMessageFailure_QueueFailed" />
@@ -268,7 +282,8 @@
       <workItem from="1726236697158" duration="6219000" />
       <workItem from="1726367103036" duration="12532000" />
       <workItem from="1726402313537" duration="1738000" />
-      <workItem from="1726404203846" duration="13711000" />
+      <workItem from="1726404203846" duration="13756000" />
+      <workItem from="1726454479766" duration="1816000" />
     </task>
     <task id="LOCAL-00001" summary="demo-springboot-amqp">
       <option name="closed" value="true" />
@@ -326,7 +341,15 @@
       <option name="project" value="LOCAL" />
       <updated>1726417911579</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="transaction">
+      <option name="closed" value="true" />
+      <created>1726419705660</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1726419705660</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -351,7 +374,8 @@
     <MESSAGE value="prefetch 消费者每次取多少消息&#10;timeout:&#10; - queue timeout 给队列设置过期时间，过期后，消息变成死信&#10; - message timeout 给消息设置过期时间，过期后，消息变成死信&#10; 两者以先过期的为准" />
     <MESSAGE value="dead letter 死信" />
     <MESSAGE value="x-delayed-queue 延迟队列" />
-    <option name="LAST_COMMIT_MESSAGE" value="x-delayed-queue 延迟队列" />
+    <MESSAGE value="transaction" />
+    <option name="LAST_COMMIT_MESSAGE" value="transaction" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
